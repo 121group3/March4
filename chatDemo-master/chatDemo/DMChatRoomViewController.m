@@ -401,8 +401,8 @@ BOOL isFirstShown = YES;
                                             otherButtonTitles:@"Continue", nil];
     
     [message setAlertViewStyle:UIAlertViewStylePlainTextInput];
-    //    [message setBackgroundColor:[UIColor colorWithRed:0.7765f green:0.1725f blue:0.1451f alpha:1.0f]];
-    //    [message setAlpha:0.8f];
+    [message setBackgroundColor:[UIColor colorWithRed:0.7765f green:0.1725f blue:0.1451f alpha:1.0f]];
+    [message setAlpha:0.8f];
     [message show];
     isShowingAlertView = YES;
 }
