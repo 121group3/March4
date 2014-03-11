@@ -26,6 +26,10 @@
 @property (nonatomic, retain) UITableView *chatTable;
 @property (nonatomic, retain) NSMutableArray *chatData;
 
+@property (nonatomic, weak) IBOutlet UINavigationBar *navigationBar;
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
 -(void) registerForKeyboardNotifications;
 -(void) freeKeyboardNotifications;
 -(void) keyboardWasShown:(NSNotification*)aNotification;

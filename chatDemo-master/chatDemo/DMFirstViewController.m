@@ -10,6 +10,10 @@
 
 @interface DMFirstViewController ()
 
+@property (nonatomic, weak) IBOutlet UINavigationBar *navigationBar;
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
 @end
 
 @implementation DMFirstViewController
@@ -37,6 +41,12 @@
 - (void)viewDidLoad
 {
 
+    // configure navigation bar for iOS7
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        CGRect statusBarFrame = [[UIApplication sharedApplication] statusBarFrame];
+        CGFloat height = self.navigationBar.frame.size.height + statusBarFrame.size.height;
+        self.navigationBar.frame = CGRectMake(0, 0, self.navigationBar.frame.size.width, height);
+    }
 	
     // Create a MapView and set its delegate
     MKMapView * mapView = [[ MKMapView alloc] initWithFrame: self.view.frame];//CGRectMake(0, 20, 320, 411)];

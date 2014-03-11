@@ -39,6 +39,8 @@
 		93FF432718BC9A070028B574 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FF432618BC9A070028B574 /* MapKit.framework */; };
 		93FF432A18C593EC0028B574 /* DMAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF432918C593EC0028B574 /* DMAnnotation.m */; };
 		93FF432D18C647E60028B574 /* MapPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF432C18C647E60028B574 /* MapPinAnnotation.m */; };
+		BE62E5E518CEB9F500F2C457 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE62E5E418CEB9F400F2C457 /* Social.framework */; };
+		BE62E5E718CEBA0200F2C457 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE62E5E618CEBA0200F2C457 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		93FF432918C593EC0028B574 /* DMAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAnnotation.m; sourceTree = "<group>"; };
 		93FF432B18C647E60028B574 /* MapPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPinAnnotation.h; sourceTree = "<group>"; };
 		93FF432C18C647E60028B574 /* MapPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPinAnnotation.m; sourceTree = "<group>"; };
+		BE62E5E418CEB9F400F2C457 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BE62E5E618CEBA0200F2C457 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE62E5E718CEBA0200F2C457 /* Accounts.framework in Frameworks */,
+				BE62E5E518CEB9F500F2C457 /* Social.framework in Frameworks */,
 				93FF432718BC9A070028B574 /* MapKit.framework in Frameworks */,
 				7E9E9C6A153B2B20006BDBF9 /* AudioToolbox.framework in Frameworks */,
 				7E9E9C6B153B2B20006BDBF9 /* CFNetwork.framework in Frameworks */,
@@ -136,6 +142,8 @@
 		7E9D15761538DFA9006018AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE62E5E618CEBA0200F2C457 /* Accounts.framework */,
+				BE62E5E418CEB9F400F2C457 /* Social.framework */,
 				93FF432618BC9A070028B574 /* MapKit.framework */,
 				7E9E9C44153B16E4006BDBF9 /* Parse.framework */,
 				7E9D15771538DFA9006018AC /* UIKit.framework */,
