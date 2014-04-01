@@ -21,6 +21,7 @@
 
 @implementation DMSecondViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -32,7 +33,7 @@
         CGFloat height = self.navigationBar.frame.size.height + statusBarFrame.size.height;
         self.navigationBar.frame = CGRectMake(0, 0, self.navigationBar.frame.size.width, height);
     }
-
+    
 }
 
 - (void)didReceiveMemoryWarning

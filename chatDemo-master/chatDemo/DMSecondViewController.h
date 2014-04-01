@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMSecondViewController : UIViewController {
-    
-}
+@interface DMSecondViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 

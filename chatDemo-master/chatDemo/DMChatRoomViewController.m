@@ -9,7 +9,7 @@
 #import "DMChatRoomViewController.h"
 
 #define TABBAR_HEIGHT 49.0f
-#define TEXTFIELD_HEIGHT 70.0f
+#define TEXTFIELD_HEIGHT 80.0f
 #define MAX_ENTRIES_LOADED 25
 
 @interface DMChatRoomViewController ()
@@ -47,6 +47,7 @@ BOOL isFirstShown = YES;
 	}
 	//  update the last update date
 	[_refreshHeaderView refreshLastUpdatedDate];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -317,7 +318,7 @@ BOOL isFirstShown = YES;
 - (void)reloadTableViewDataSource{
 	
 	//  should be calling your tableviews data source model to reload
-	//  put here just for demo
+	//  put here just for demo....um
 	_reloading = YES;
     [self loadLocalChat];
 	[chatTable reloadData];
@@ -401,8 +402,8 @@ BOOL isFirstShown = YES;
                                             otherButtonTitles:@"Continue", nil];
     
     [message setAlertViewStyle:UIAlertViewStylePlainTextInput];
-    [message setBackgroundColor:[UIColor colorWithRed:0.7765f green:0.1725f blue:0.1451f alpha:1.0f]];
-    [message setAlpha:0.8f];
+    [message setBackgroundColor:[UIColor blackColor]];
+    //[message setAlpha:1.0f];
     [message show];
     isShowingAlertView = YES;
 }
