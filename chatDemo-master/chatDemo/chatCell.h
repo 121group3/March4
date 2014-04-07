@@ -13,10 +13,12 @@
     IBOutlet UILabel *userLabel;
 	IBOutlet UITextView *textString;
 	IBOutlet UILabel *timeLabel;
+    IBOutlet UIColor *textColor;
 }
 
 @property (nonatomic,strong) IBOutlet UILabel *userLabel;
 @property (nonatomic,strong) IBOutlet UITextView *textString;
 @property (nonatomic,strong) IBOutlet UILabel *timeLabel;
+@property (nonatomic, strong) IBOutlet UIColor *textColor;
 
 @end
