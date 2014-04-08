@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		389DE09918F3D52100D6EDB5 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389DE09818F3D52100D6EDB5 /* Storyboard2.storyboard */; };
+		389DE09B18F3D76B00D6EDB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 389DE09A18F3D76B00D6EDB5 /* Default-568h@2x.png */; };
 		7E9D15781538DFA9006018AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9D15771538DFA9006018AC /* UIKit.framework */; };
 		7E9D157A1538DFA9006018AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9D15791538DFA9006018AC /* Foundation.framework */; };
 		7E9D157C1538DFA9006018AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9D157B1538DFA9006018AC /* CoreGraphics.framework */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		389DE09818F3D52100D6EDB5 /* Storyboard2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard2.storyboard; path = ../Storyboard2.storyboard; sourceTree = "<group>"; };
+		389DE09A18F3D76B00D6EDB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7E9D15731538DFA9006018AC /* chatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9D15771538DFA9006018AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E9D15791538DFA9006018AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -165,6 +169,7 @@
 				7E9D15A11538E519006018AC /* chatCell.h */,
 				7E9D15A21538E519006018AC /* chatCell.m */,
 				7E9D15891538DFA9006018AC /* MainStoryboard.storyboard */,
+				389DE09818F3D52100D6EDB5 /* Storyboard2.storyboard */,
 				7E9D157E1538DFA9006018AC /* Supporting Files */,
 			);
 			path = chatDemo;
@@ -188,6 +193,7 @@
 		7E9D159F1538E2AE006018AC /* artwork */ = {
 			isa = PBXGroup;
 			children = (
+				389DE09A18F3D76B00D6EDB5 /* Default-568h@2x.png */,
 				7E9E9C77153B6EBC006BDBF9 /* background_pattern.png */,
 				7E9E9C75153B6EA4006BDBF9 /* background_pattern@2x.png */,
 				7E9D15A41538E8BF006018AC /* chat.png */,
@@ -291,8 +297,10 @@
 				7E9D15901538DFA9006018AC /* first.png in Resources */,
 				7E9D15921538DFA9006018AC /* first@2x.png in Resources */,
 				7E9D15971538DFA9006018AC /* second.png in Resources */,
+				389DE09B18F3D76B00D6EDB5 /* Default-568h@2x.png in Resources */,
 				7E9D15991538DFA9006018AC /* second@2x.png in Resources */,
 				7E9D15A61538E8BF006018AC /* chat.png in Resources */,
+				389DE09918F3D52100D6EDB5 /* Storyboard2.storyboard in Resources */,
 				7E9D15A71538E8BF006018AC /* chat@2x.png in Resources */,
 				7E9E9C4215398275006BDBF9 /* textfield_background.png in Resources */,
 				7E9E9C4315398275006BDBF9 /* textfield_background@2x.png in Resources */,
@@ -399,7 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "chatDemo/chatDemo-Prefix.pch";
 				INFOPLIST_FILE = "chatDemo/chatDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv6 armv7";
@@ -419,7 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "chatDemo/chatDemo-Prefix.pch";
 				INFOPLIST_FILE = "chatDemo/chatDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv6 armv7";
