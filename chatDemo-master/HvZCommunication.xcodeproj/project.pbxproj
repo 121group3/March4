@@ -54,14 +54,14 @@
 		389DE09C18F3DE7300D6EDB5 /* bookmark-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-7.png"; sourceTree = "<group>"; };
 		389DE09D18F3DE7300D6EDB5 /* map-paper-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-paper-7.png"; sourceTree = "<group>"; };
 		389DE0A018F3DE9500D6EDB5 /* book-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-7.png"; sourceTree = "<group>"; };
-		7E9D15731538DFA9006018AC /* chatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E9D15731538DFA9006018AC /* HvZCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HvZCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9D15771538DFA9006018AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E9D15791538DFA9006018AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E9D157B1538DFA9006018AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E9D157F1538DFA9006018AC /* chatDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatDemo-Info.plist"; sourceTree = "<group>"; };
+		7E9D157F1538DFA9006018AC /* HvZCommunication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HvZCommunication-Info.plist"; sourceTree = "<group>"; };
 		7E9D15811538DFA9006018AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E9D15831538DFA9006018AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E9D15851538DFA9006018AC /* chatDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chatDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7E9D15851538DFA9006018AC /* HvZCommunication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HvZCommunication-Prefix.pch"; sourceTree = "<group>"; };
 		7E9D15861538DFA9006018AC /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
 		7E9D15871538DFA9006018AC /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
 		7E9D158A1538DFA9006018AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		7E9D15741538DFA9006018AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E9D15731538DFA9006018AC /* chatDemo.app */,
+				7E9D15731538DFA9006018AC /* HvZCommunication.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,14 +184,14 @@
 		7E9D157E1538DFA9006018AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E9D157F1538DFA9006018AC /* chatDemo-Info.plist */,
+				7E9D157F1538DFA9006018AC /* HvZCommunication-Info.plist */,
 				93FF432818C593EC0028B574 /* DMAnnotation.h */,
 				93FF432918C593EC0028B574 /* DMAnnotation.m */,
 				93FF432B18C647E60028B574 /* MapPinAnnotation.h */,
 				93FF432C18C647E60028B574 /* MapPinAnnotation.m */,
 				7E9D15801538DFA9006018AC /* InfoPlist.strings */,
 				7E9D15831538DFA9006018AC /* main.m */,
-				7E9D15851538DFA9006018AC /* chatDemo-Prefix.pch */,
+				7E9D15851538DFA9006018AC /* HvZCommunication-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,9 +242,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E9D15721538DFA9006018AC /* chatDemo */ = {
+		7E9D15721538DFA9006018AC /* HvZCommunication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E9D159C1538DFA9006018AC /* Build configuration list for PBXNativeTarget "chatDemo" */;
+			buildConfigurationList = 7E9D159C1538DFA9006018AC /* Build configuration list for PBXNativeTarget "HvZCommunication" */;
 			buildPhases = (
 				7E9D156F1538DFA9006018AC /* Sources */,
 				7E9D15701538DFA9006018AC /* Frameworks */,
@@ -254,9 +254,9 @@
 			);
 			dependencies = (
 			);
-			name = chatDemo;
+			name = HvZCommunication;
 			productName = chatDemo;
-			productReference = 7E9D15731538DFA9006018AC /* chatDemo.app */;
+			productReference = 7E9D15731538DFA9006018AC /* HvZCommunication.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +279,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E9D156D1538DFA9006018AC /* Build configuration list for PBXProject "chatDemo" */;
+			buildConfigurationList = 7E9D156D1538DFA9006018AC /* Build configuration list for PBXProject "HvZCommunication" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -291,7 +291,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E9D15721538DFA9006018AC /* chatDemo */,
+				7E9D15721538DFA9006018AC /* HvZCommunication */,
 			);
 		};
 /* End PBXProject section */
@@ -417,10 +417,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "chatDemo/chatDemo-Prefix.pch";
-				INFOPLIST_FILE = "chatDemo/chatDemo-Info.plist";
+				GCC_PREFIX_HEADER = "chatDemo/HvZCommunication-Prefix.pch";
+				INFOPLIST_FILE = "chatDemo/HvZCommunication-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HvZCommunication;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv6 armv7";
 				WRAPPER_EXTENSION = app;
@@ -437,10 +437,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "chatDemo/chatDemo-Prefix.pch";
-				INFOPLIST_FILE = "chatDemo/chatDemo-Info.plist";
+				GCC_PREFIX_HEADER = "chatDemo/HvZCommunication-Prefix.pch";
+				INFOPLIST_FILE = "chatDemo/HvZCommunication-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HvZCommunication;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv6 armv7";
 				WRAPPER_EXTENSION = app;
@@ -450,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E9D156D1538DFA9006018AC /* Build configuration list for PBXProject "chatDemo" */ = {
+		7E9D156D1538DFA9006018AC /* Build configuration list for PBXProject "HvZCommunication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E9D159A1538DFA9006018AC /* Debug */,
@@ -459,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E9D159C1538DFA9006018AC /* Build configuration list for PBXNativeTarget "chatDemo" */ = {
+		7E9D159C1538DFA9006018AC /* Build configuration list for PBXNativeTarget "HvZCommunication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E9D159D1538DFA9006018AC /* Debug */,

@@ -41,7 +41,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pKQ-bW-ylA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="652" y="529"/>
+            <point key="canvasLocation" x="568" y="845"/>
         </scene>
         <!--Second View Controller - Announcements-->
         <scene sceneID="wwZ-jw-EwH">
@@ -161,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEn-K7-Igx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="1718"/>
+            <point key="canvasLocation" x="1186" y="1558"/>
         </scene>
     </scenes>
     <resources>
